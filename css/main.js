@@ -10,14 +10,7 @@ window.onscroll = function () {
         MyButton.style.display='block'
     } else {
         MyButton.style.display='none'
-    }
-
-    // if(window.pageYOffset >=100) {
-    //     head.classList.add("fixedheader")
-    // } else{
-    //     head.classList.remove("fixedheader")
-    // }
-    
+    } 
 };
 
 MyButton.onclick = function(){

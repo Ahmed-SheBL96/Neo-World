@@ -818,6 +818,7 @@ ul {
 
 .team .container .box {
   position: relative;
+  margin-right: 30px;
 }
 
 .team .container .box::before, .team .container .box::after {
@@ -833,8 +834,9 @@ ul {
 }
 
 .team .container .box::before {
-  width: calc(100% - 60px);
+  width: 90%;
   z-index: -2;
+  right: -25px;
 }
 
 .team .container .box::after {
@@ -844,7 +846,8 @@ ul {
 }
 
 .team .container .box:hover::after {
-  width: calc(100% - 60px);
+  width: 90%;
+  right: -25px;
 }
 
 .team .container .box .data {
@@ -858,7 +861,7 @@ ul {
 }
 
 .team .container .box .data img {
-  width: 100%;
+  width: 90%;
   -webkit-transition: var(--main-transition);
   transition: var(--main-transition);
   border-radius: 10px;

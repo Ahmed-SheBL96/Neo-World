@@ -688,6 +688,7 @@ ul {
     gap: 40px;
     .box {
       position: relative;
+      margin-right: 30px;
       &::before,
       &::after {
         content: "";
@@ -700,8 +701,9 @@ ul {
         transition: var(--main-transition);
       }
       &::before {
-        width: calc(100% - 60px);
+        width: 90%;
         z-index: -2;
+        right: -25px;
       }
       &::after {
         z-index: -1;
@@ -709,14 +711,15 @@ ul {
         width: 0;
       }
       &:hover::after {
-        width: calc(100% - 60px);
+        width: 90%;
+        right: -25px;
       }
       .data {
         display: flex;
         align-items: center;
         padding-top: 60px;
         img {
-          width: 100%;
+          width: 90%;
           transition: var(--main-transition);
           border-radius: 10px;
         }
